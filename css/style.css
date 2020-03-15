@@ -6,8 +6,16 @@ div{
     font-weight: bold;
     font-family: system-ui;
     text-align: center;
+    padding-bottom: 10px;
 }
 canvas{
     display: block;
     margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-style : italic;
+    font-size: 15px;
 }
