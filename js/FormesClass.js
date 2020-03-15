@@ -321,7 +321,7 @@ class Forme {
             }
             if (ligneComplete) {
                 // Si une ligne est complète, on la supprime
-                for (y = i; y > 1; y--) {
+                for (var y = i; y > 1; y--) {
                     for (j = 0; j < COLONNE; j++) {
                         plateau[y][j] = plateau[y - 1][j];
                     }
