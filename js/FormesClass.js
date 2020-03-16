@@ -204,7 +204,7 @@ class Forme {
                 // Détermination des nouvelles coordonnées
                 // this.x = position actuelle sur le plateau
                 // j = case de la pièce en cours selon sa forme et sa rotation
-                // x = éventuelle décalage pour vérifier une case adjacente
+                // x = éventuel décalage pour vérifier une case adjacente
                 var newX = this.x + j + x;
                 var newY = this.y + i + y;
                 
@@ -303,6 +303,7 @@ class Forme {
                 if (!this.activeForme[i][j]) {
                     continue;
                 }
+                // Si on veut verrouiller une pièce en dehors du plateau, c'est gameover
                 if (this.y + i < 0) {
 					gameover();
                     break;

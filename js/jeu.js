@@ -44,7 +44,7 @@ drawPlateau();
 function randomForme() {
     var r = Math.floor(Math.random() * FORMES.length)
 
-    // On récupère la forme (index )0) et sa couleur (index 1)  de manière aléatoire
+    // On récupère la forme (index 0) et sa couleur (index 1)  de manière aléatoire
     return new Forme(FORMES[r][0], FORMES[r][1]);
 }
 
